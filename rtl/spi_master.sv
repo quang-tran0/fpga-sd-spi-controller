@@ -72,7 +72,7 @@ module spi_master #(
                         sclk <= 1'b0;
 
                         // send/receive done scenario
-                        if (sample_count <= 4'd8) begin
+                        if (sample_count == 4'd8) begin
                             busy <= 1'b0;
                             done <= 1'b1;
 
