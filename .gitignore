@@ -1,1 +1,14 @@
 .DS_Store
+
+sim/work/
+sim/log/
+
+sim/*.ini
+sim/transcript
+sim/*.trace
+sim/*.log
+sim/*.wlf
+sim/*.ucdb
+sim/vsim.dbg
+sim/tmp_report
+sim/run.log

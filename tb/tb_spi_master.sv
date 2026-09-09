@@ -77,6 +77,9 @@ module  tb_spi_master;
                 slave_rx
             );
 
+        $display("================================");
+        $display("START SIMULATION");
+        $display("================================");
 
         $display(
             "SPI TEST PASS: master_tx=A5 master_rx=%02h",
